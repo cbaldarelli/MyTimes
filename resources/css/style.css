@@ -1,7 +1,6 @@
 #logo p {
   color: MediumAquamarine;
-  align-content: center;
-  justify-content: center;
+
 }
 
 .logo {
@@ -9,6 +8,7 @@
   margin-left: 30px;
 }
 .header {
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -16,5 +16,18 @@
 }
 
 .container {
+  width: 100%;
+}
+
+#menu {
+  justify-content: flex-end;
   display: flex;
+}
+
+#menu li {
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
 }
