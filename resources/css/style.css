@@ -42,7 +42,7 @@ ul {
 }
 
 .container {
-  display: flex;
+  display: inline-flex;
   border: 1px solid black;
 }
 
@@ -50,6 +50,8 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
+
 #large {
   width: 630px;
 }
