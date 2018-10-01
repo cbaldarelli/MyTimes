@@ -51,7 +51,11 @@ ul {
   flex-direction: column;
 }
 
-
+.column p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
 #large {
   width: 630px;
 }
@@ -62,4 +66,18 @@ ul {
 
 #small {
   width: 240px;
+}
+
+.article_name {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.main_article_name {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 }
