@@ -1,6 +1,11 @@
+#logo {
+  display: flex;
+}
+
 #logo p {
   color: MediumAquamarine;
-
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -22,10 +27,12 @@
 #menu {
   justify-content: flex-end;
   display: flex;
+  align-items: center;
 }
 
 #menu li {
   display: inline-block;
+  padding: 10px;
 }
 
 ul {
