@@ -1,9 +1,20 @@
 #logo p {
   color: MediumAquamarine;
+  align-content: center;
+  justify-content: center;
 }
 
+.logo {
+  margin: 10px;
+  margin-left: 30px;
+}
 .header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: solid black 1px;
+}
+
+.container {
+  display: flex;
 }
