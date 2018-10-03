@@ -132,6 +132,11 @@ ul {
   flex-direction: column;
 }
 
+.newsbites ul {
+  border-top: 1px solid black;
+  width: 220px;
+}
+
 .newsbites li {
   background-color: WhiteSmoke;
   font-family: Verdana;
