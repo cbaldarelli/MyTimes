@@ -159,3 +159,32 @@ ul {
   text-transform: uppercase;
   text-align: center;
 }
+
+footer {
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  height: 400px;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+}
+
+#mytimes {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+a:visited {
+  color: black;
+}
