@@ -101,7 +101,6 @@ ul {
   text-align: center;
 }
 
-/* Figure out how to adjust image size*/
 
 #phish {
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png');
@@ -140,9 +139,14 @@ ul {
   color: DimGray;
   border-bottom: 1px solid black;
   margin: 0;
+  padding: 0;
   width: 240px;
-  line-height: 2;
+  line-height: 4;
+  position: relative;
+  right: 40px;
+  padding-left: 20px;
 }
+
 
 .newsbites h2 {
   font-size: 16px;
