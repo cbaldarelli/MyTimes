@@ -27,6 +27,7 @@
   color: MediumAquamarine;
   display: flex;
   align-items: center;
+  padding: 10px;
 }
 
 .logo {
@@ -170,19 +171,23 @@ footer {
   font-family: Verdana;
   font-size: 12px;
   display: flex;
-  height: 400px;
+  height: 350px;
   margin-top: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  line-height: 1;
 }
 
 .footer {
   display: flex;
   flex-direction: row;
-}
+  align-items: baseline;
+  width: 350px;
+  justify-content: space-around;
 
+}
 #mytimes {
   font-family: Georgia;
   font-size: 16px;
